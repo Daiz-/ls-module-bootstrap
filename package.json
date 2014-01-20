@@ -1,0 +1,27 @@
+{
+  "name": "ls-module-bootstrap",
+  "version": "0.1.0",
+  "description": "A bootstrap for writing node.js modules with LiveScript.",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "LiveScript": "~1.2.0",
+    "shelljs": "~0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "preinstall": "lsc make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daiz-/ls-module-bootstrap.git"
+  },
+  "keywords": [
+    "livescript",
+    "bootstrap"
+  ],
+  "author": "Daiz <taneli.vatanen@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/Daiz-/ls-module-bootstrap/issues"
+  }
+}
