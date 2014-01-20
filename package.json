@@ -2,6 +2,8 @@
   "name": "ls-module-bootstrap",
   "version": "0.1.0",
   "description": "A bootstrap for writing node.js modules with LiveScript.",
+  "author": "Daiz <taneli.vatanen@gmail.com>",
+  "license": "CC0",
   "main": "./lib/index.js",
   "dependencies": {
     "LiveScript": "~1.2.0",
@@ -19,9 +21,4 @@
     "livescript",
     "bootstrap"
   ],
-  "author": "Daiz <taneli.vatanen@gmail.com>",
-  "license": "CC0",
-  "bugs": {
-    "url": "https://github.com/Daiz-/ls-module-bootstrap/issues"
-  }
 }
