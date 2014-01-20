@@ -2,7 +2,7 @@
 
 I like using [LiveScript](http://livescript.net/), so I decided to write this little bootstrap to make life simpler when it comes to writing Node.js modules with it.
 
-# How to use it
+## How to use it
 
 Put all your LiveScript code to a directory called `src`. The default entry point for the application is `index.js`, so the source file for that should be called `index.ls`.
 
