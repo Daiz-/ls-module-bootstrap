@@ -39,7 +39,7 @@ Here are the important things that your package.json should have:
 
 ```json
   "scripts": {
-    "preinstall": "lsc make"
+    "postinstall": "lsc make"
   },
 ```
 

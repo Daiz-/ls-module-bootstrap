@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "preinstall": "lsc make"
+    "postinstall": "lsc make"
   },
   "repository": {
     "type": "git",
