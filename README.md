@@ -23,3 +23,24 @@ lib/main/linter.js
 ```
 
 Due to this, you should make sure to not use file extensions when using `require` to load your submodules, so in your index.ls, you should have `require './main/parser'`, **not** `require './main/parser.ls'`.
+
+## Important bits of package.json
+
+Here are the important things that your package.json should have:
+
+```json
+  "dependencies": {
+    "LiveScript": "~1.2.0",
+    "shelljs": "~0.2.6"
+  },
+```
+
+`LiveScript` and `shelljs` are used for the compilation.
+
+```json
+  "scripts": {
+    "preinstall": "lsc make"
+  },
+```
+
+This is responsible for running the compilation to JS on install.
